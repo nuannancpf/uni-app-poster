@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "海报分享",
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {
+    "poster": "/components/poster/poster"
+  }
+}
