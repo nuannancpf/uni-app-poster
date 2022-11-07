@@ -216,7 +216,7 @@
 					// const {
 					// 	userInfo
 					// } = await getUserProfileSync()
-					// console.log(userInfo, '这是？？？ ====》userInfo')
+					console.log(userInfo, '这是？？？ ====》userInfo')
 					// const res = await getUserProfileSync()
 					// console.log(res, '全部的res');
 					storage.set('userProfile', userInfo, 60 * 60 * 24 * 10)

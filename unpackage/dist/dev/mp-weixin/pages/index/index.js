@@ -382,7 +382,7 @@ var _utils = __webpack_require__(/*! @/utils */ 29);function _interopRequireDefa
                   // const {
                   // 	userInfo
                   // } = await getUserProfileSync()
-                  // console.log(userInfo, '这是？？？ ====》userInfo')
+                  console.log(userInfo, '这是？？？ ====》userInfo');
                   // const res = await getUserProfileSync()
                   // console.log(res, '全部的res');
                   _utils.storage.set('userProfile', userInfo, 60 * 60 * 24 * 10);
