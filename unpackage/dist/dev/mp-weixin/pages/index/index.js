@@ -376,15 +376,11 @@ var _utils = __webpack_require__(/*! @/utils */ 29);function _interopRequireDefa
 
 
     handleShare: function handleShare(userInfo) {var _this2 = this;return _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee() {var userProfile;return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:
-                // console.log('分享。。。。。。。');
-                // console.log(storage.get('userProfile'), 'storage.get ========>');
                 if (!_utils.storage.get('userProfile')) {
                   // const {
                   // 	userInfo
                   // } = await getUserProfileSync()
                   console.log(userInfo, '这是？？？ ====》userInfo');
-                  // const res = await getUserProfileSync()
-                  // console.log(res, '全部的res');
                   _utils.storage.set('userProfile', userInfo, 60 * 60 * 24 * 10);
                 }
                 userProfile = _utils.storage.get('userProfile');

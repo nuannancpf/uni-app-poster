@@ -210,15 +210,11 @@
 
 
 			async handleShare(userInfo) {
-				// console.log('分享。。。。。。。');
-				// console.log(storage.get('userProfile'), 'storage.get ========>');
 				if (!storage.get('userProfile')) {
 					// const {
 					// 	userInfo
 					// } = await getUserProfileSync()
 					console.log(userInfo, '这是？？？ ====》userInfo')
-					// const res = await getUserProfileSync()
-					// console.log(res, '全部的res');
 					storage.set('userProfile', userInfo, 60 * 60 * 24 * 10)
 				}
 				const userProfile = storage.get('userProfile')
